@@ -40,7 +40,7 @@ const mixedMessages = () => {
 
 const randomMessage = (arr) => arr[Math.floor(Math.random()*arr.length)]
   
-   outMessage.textContent = `${randomMessage(ramOne)}${randomMessage(ramTwo)}${randomMessage(ramThree)}`
+   outMessage.textContent = `${randomMessage(ramOne)} ${randomMessage(ramTwo)} ${randomMessage(ramThree)}`
 }
 const btRandom = document.querySelector("button").addEventListener('click',mixedMessages)
 
